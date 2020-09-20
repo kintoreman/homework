@@ -1,0 +1,55 @@
+#footer{
+    height: 100%;
+}
+
+.logo{
+
+    height: 100%;
+    padding: 0 10%;
+    &::before {
+        display: block;
+        content: "";
+        width: 100%;
+        margin: 10% 0;
+        border-bottom: 1px solid #70707036;
+        @include sp{
+            margin: 20% 0;
+        }
+    }
+    .footer-box{
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 5%;
+        @include sp{
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+    }
+        .footer-logo{
+        font-size: 3.2rem;
+        color: #7070704D;
+        width: 100%;
+        @include sp{
+            text-align: center;
+        }
+    }
+}
+  .footer-btn{
+    font-size: 1.8rem;
+    background-color: white;
+    color: #707070;
+    border-color: #7070704D;
+    width: 15%;
+    height: 35px;
+    @include sp{
+        width: 50%;
+        margin-bottom: 20%;
+    }
+  }
+
+i{
+    color: black;
+    margin: 0 1%;
+}
+

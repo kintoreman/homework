@@ -5,7 +5,7 @@
 }
 
 @mixin tab{
-    @media screen and (max-width: 959px){
+    @media screen and (max-width: 750px){
         @content;
     }
 }

@@ -23,7 +23,7 @@
         margin-bottom: 5%;
         @include sp{
             align-items: center;
-            flex-direction: column-reverse;
+            flex-direction: column;
         }
     }
         .footer-logo{
@@ -32,6 +32,9 @@
         width: 100%;
         @include sp{
             text-align: center;
+                display: flex;
+            justify-content: space-between;
+ 
         }
     }
 }
@@ -50,6 +53,11 @@
 
 i{
     color: black;
-    margin: 0 1%;
+    margin: 0 10%;
+    
+}
+
+.twitter{
+    display: flex;
 }
 

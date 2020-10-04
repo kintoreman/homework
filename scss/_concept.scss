@@ -1,6 +1,6 @@
 #concept {
     width: 100%;
-    height: 1100px;
+    height: 950px;
     position: relative;
     .concept-back{
         height: 40%;
@@ -43,7 +43,7 @@
     top: 32%;
     @include sp{
         top: 20%;
-        height: 35%;
+        height: 27%;
     }
 }    
 
@@ -63,7 +63,7 @@
     background-image: url(..//img/joel-mott-mNYL0surXh8-unsplash.png);
     background-size: cover;
     
-    margin-left : 1%;    
+    margin-left : 4%;    
     @include sp{
         width: 50%;
          background-position: 70%;
@@ -86,8 +86,8 @@
         @include sp{
             flex-direction: column;
             align-items: center;
-            justify-content: flex-end;
-            padding-bottom: 15%;
+            justify-content: center;
+            padding-top: 20%;
             
         }
         .concept-daizi{
@@ -97,7 +97,7 @@
             font-size: 4.0rem;
             padding-bottom: 3%;
             @include sp{
-                font-size: 2.5rem;
+                font-size: 2.3rem;
                 width: 100%;
                 text-align: center;
                 padding-bottom: 5%;

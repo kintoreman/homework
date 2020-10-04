@@ -14,6 +14,8 @@
     @include sp{ 
         background-image: url(..//img/Blond\ woman\ with\ long\ curly\ beautiful\ hair@2x.png); 
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
         height: 100%;
         width: 100%;
         display: flex;
